@@ -3,14 +3,14 @@ package org.ort.starwars.fleet.application.services;
 import java.util.Collections;
 import java.util.List;
 
+import org.ort.starwars.fleet.application.ports.out.StarshipRepositoryPort;
 import org.ort.starwars.fleet.domain.models.Mission;
 import org.ort.starwars.fleet.domain.models.entities.Starship;
-import org.ort.starwars.fleet.infrastructure.adapters.repositories.StarshipRepository;
-import org.ort.starwars.fleet.domain.services.strategies.FleetStrategy;
-import org.ort.starwars.fleet.domain.services.strategies.FleetStrategyDefaut;
-import org.ort.starwars.fleet.domain.services.strategies.FleetStrategyMaxSpeed;
-import org.ort.starwars.fleet.domain.services.strategies.FleetStrategyMinCost;
-import org.ort.starwars.fleet.domain.services.strategies.FleetStrategyMinEntropy;
+import org.ort.starwars.fleet.application.services.strategies.FleetStrategy;
+import org.ort.starwars.fleet.application.services.strategies.FleetStrategyDefaut;
+import org.ort.starwars.fleet.application.services.strategies.FleetStrategyMaxSpeed;
+import org.ort.starwars.fleet.application.services.strategies.FleetStrategyMinCost;
+import org.ort.starwars.fleet.application.services.strategies.FleetStrategyMinEntropy;
 import org.ort.starwars.fleet.utils.Iterables;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +27,7 @@ public class FleetService {
             new FleetStrategyDefaut()
     };
 
-    private final StarshipRepository repository;
+    private final StarshipRepositoryPort repository;
 
     /**
      * Réserve une flotte de vaisseaux avec une stratégie adaptée à la mission

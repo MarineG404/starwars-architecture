@@ -1,4 +1,4 @@
-package org.ort.starwars.fleet.domain.services.strategies.helpers;
+package org.ort.starwars.fleet.application.services.strategies.helpers;
 
 import java.util.ArrayList;
 import java.util.List;
