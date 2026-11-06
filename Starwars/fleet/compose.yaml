@@ -1,0 +1,23 @@
+services:
+  fleet-db:
+    image: postgres:18
+    container_name: fleet-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: api
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: fleet
+    ports:
+      # Host port 5434 because 5432 and 5433 are often taken by other local databases
+      - "127.0.0.1:5434:5432"
+    volumes:
+      # Postgres 18+ stores its data in a versioned subfolder, so mount the parent folder
+      - fleet-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U api -d fleet"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  fleet-data:
