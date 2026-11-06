@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import org.ort.starwars.fleet.models.Mission;
-import org.ort.starwars.fleet.models.entities.Starship;
-import org.ort.starwars.fleet.models.enums.MissionType;
+import org.ort.starwars.fleet.domain.models.Mission;
+import org.ort.starwars.fleet.domain.models.entities.Starship;
+import org.ort.starwars.fleet.domain.models.enums.MissionType;
 import org.ort.starwars.fleet.services.strategies.helpers.FleetHelper;
 
 public class FleetStrategyMinEntropy implements FleetStrategy {

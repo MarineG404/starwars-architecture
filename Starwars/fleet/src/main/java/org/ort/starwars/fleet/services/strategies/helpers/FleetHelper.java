@@ -3,8 +3,8 @@ package org.ort.starwars.fleet.services.strategies.helpers;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ort.starwars.fleet.models.entities.Starship;
-import org.ort.starwars.fleet.models.enums.StarshipType;
+import org.ort.starwars.fleet.domain.models.entities.Starship;
+import org.ort.starwars.fleet.domain.models.enums.StarshipType;
 
 public final class FleetHelper {
 

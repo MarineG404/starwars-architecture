@@ -1,6 +1,6 @@
-package org.ort.starwars.fleet.models;
+package org.ort.starwars.fleet.domain.models;
 
-import org.ort.starwars.fleet.models.enums.MissionType;
+import org.ort.starwars.fleet.domain.models.enums.MissionType;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

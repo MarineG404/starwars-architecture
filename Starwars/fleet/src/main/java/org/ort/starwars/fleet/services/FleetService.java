@@ -3,8 +3,8 @@ package org.ort.starwars.fleet.services;
 import java.util.Collections;
 import java.util.List;
 
-import org.ort.starwars.fleet.models.Mission;
-import org.ort.starwars.fleet.models.entities.Starship;
+import org.ort.starwars.fleet.domain.models.Mission;
+import org.ort.starwars.fleet.domain.models.entities.Starship;
 import org.ort.starwars.fleet.repositories.StarshipRepository;
 import org.ort.starwars.fleet.services.strategies.FleetStrategy;
 import org.ort.starwars.fleet.services.strategies.FleetStrategyDefaut;

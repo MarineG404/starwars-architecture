@@ -3,9 +3,9 @@ package org.ort.starwars.fleet.jobs;
 import java.net.ConnectException;
 import java.util.stream.Stream;
 
+import org.ort.starwars.fleet.domain.models.entities.Starship;
 import org.ort.starwars.fleet.gateways.SwapiProxy;
 import org.ort.starwars.fleet.gateways.mappers.SwapiStarshipMapper;
-import org.ort.starwars.fleet.models.entities.Starship;
 import org.ort.starwars.fleet.repositories.StarshipRepository;
 import org.ort.starwars.fleet.utils.Merge;
 import org.slf4j.Logger;

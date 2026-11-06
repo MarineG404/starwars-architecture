@@ -1,4 +1,4 @@
-package org.ort.starwars.fleet.models.enums;
+package org.ort.starwars.fleet.domain.models.enums;
 
 public enum Breed {
     HUMAN,

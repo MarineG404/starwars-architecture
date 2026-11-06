@@ -1,6 +1,6 @@
-package org.ort.starwars.fleet.models.entities;
+package org.ort.starwars.fleet.domain.models.entities;
 
-import org.ort.starwars.fleet.models.enums.Breed;
+import org.ort.starwars.fleet.domain.models.enums.Breed;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

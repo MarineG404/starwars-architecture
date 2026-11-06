@@ -1,6 +1,6 @@
 package org.ort.starwars.fleet.repositories;
 
-import org.ort.starwars.fleet.models.entities.Staff;
+import org.ort.starwars.fleet.domain.models.entities.Staff;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
 package org.ort.starwars.fleet.services.strategies;
 
-import org.ort.starwars.fleet.models.Mission;
+import org.ort.starwars.fleet.domain.models.Mission;
 
 public class FleetStrategyDefaut extends FleetStrategyMinEntropy {
 

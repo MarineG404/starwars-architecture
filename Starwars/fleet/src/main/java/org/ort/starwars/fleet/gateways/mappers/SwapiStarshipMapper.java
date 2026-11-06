@@ -1,8 +1,8 @@
 package org.ort.starwars.fleet.gateways.mappers;
 
+import org.ort.starwars.fleet.domain.models.entities.Starship;
+import org.ort.starwars.fleet.domain.models.enums.StarshipType;
 import org.ort.starwars.fleet.gateways.dtos.SwapiStarshipDto;
-import org.ort.starwars.fleet.models.entities.Starship;
-import org.ort.starwars.fleet.models.enums.StarshipType;
 import org.ort.starwars.fleet.utils.Parsing;
 import org.springframework.stereotype.Component;
 

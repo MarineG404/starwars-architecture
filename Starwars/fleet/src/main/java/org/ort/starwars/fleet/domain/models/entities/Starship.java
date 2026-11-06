@@ -1,6 +1,7 @@
-package org.ort.starwars.fleet.models.entities;
+package org.ort.starwars.fleet.domain.models.entities;
 
 import org.apache.logging.log4j.util.Strings;
+import org.ort.starwars.fleet.domain.models.enums.StarshipType;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -11,8 +12,6 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
-import org.ort.starwars.fleet.models.enums.StarshipType;
-
 import jakarta.persistence.EnumType;
 import jakarta.persistence.GenerationType;
 
@@ -24,7 +23,7 @@ import jakarta.persistence.GenerationType;
 @AllArgsConstructor
 @Entity
 public class Starship {
-    @Id 
+    @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -33,15 +32,15 @@ public class Starship {
     private String name;
     @Enumerated(EnumType.STRING)
     private StarshipType category;
-    @Column 
+    @Column
     private int length;
-    @Column 
+    @Column
     private int crew;
-    @Column 
+    @Column
     private int passengers;
-    @Column 
+    @Column
     private int count;
-    @Column 
+    @Column
     private String pilot;
 
     public String getKey() {
