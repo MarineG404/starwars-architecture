@@ -1,16 +1,16 @@
-package org.ort.starwars.fleet.services;
+package org.ort.starwars.fleet.application.services;
 
 import java.util.Collections;
 import java.util.List;
 
 import org.ort.starwars.fleet.domain.models.Mission;
 import org.ort.starwars.fleet.domain.models.entities.Starship;
-import org.ort.starwars.fleet.repositories.StarshipRepository;
-import org.ort.starwars.fleet.services.strategies.FleetStrategy;
-import org.ort.starwars.fleet.services.strategies.FleetStrategyDefaut;
-import org.ort.starwars.fleet.services.strategies.FleetStrategyMaxSpeed;
-import org.ort.starwars.fleet.services.strategies.FleetStrategyMinCost;
-import org.ort.starwars.fleet.services.strategies.FleetStrategyMinEntropy;
+import org.ort.starwars.fleet.infrastructure.adapters.repositories.StarshipRepository;
+import org.ort.starwars.fleet.domain.services.strategies.FleetStrategy;
+import org.ort.starwars.fleet.domain.services.strategies.FleetStrategyDefaut;
+import org.ort.starwars.fleet.domain.services.strategies.FleetStrategyMaxSpeed;
+import org.ort.starwars.fleet.domain.services.strategies.FleetStrategyMinCost;
+import org.ort.starwars.fleet.domain.services.strategies.FleetStrategyMinEntropy;
 import org.ort.starwars.fleet.utils.Iterables;
 import org.springframework.stereotype.Service;
 

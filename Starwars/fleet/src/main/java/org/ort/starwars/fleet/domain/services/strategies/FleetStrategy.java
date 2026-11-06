@@ -1,4 +1,4 @@
-package org.ort.starwars.fleet.services.strategies;
+package org.ort.starwars.fleet.domain.services.strategies;
 
 import java.util.List;
 

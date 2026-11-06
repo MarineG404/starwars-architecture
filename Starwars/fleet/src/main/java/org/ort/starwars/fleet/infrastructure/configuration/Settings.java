@@ -1,4 +1,4 @@
-package org.ort.starwars.fleet.configuration;
+package org.ort.starwars.fleet.infrastructure.configuration;
 import lombok.Data;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.boot.context.properties.ConfigurationProperties;

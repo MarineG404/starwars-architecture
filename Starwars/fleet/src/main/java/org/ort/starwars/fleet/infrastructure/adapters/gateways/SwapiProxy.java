@@ -1,11 +1,11 @@
-package org.ort.starwars.fleet.gateways;
+package org.ort.starwars.fleet.infrastructure.adapters.gateways;
 
 import java.net.ConnectException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ort.starwars.fleet.gateways.dtos.SwapiPageDto;
-import org.ort.starwars.fleet.gateways.dtos.SwapiStarshipDto;
+import org.ort.starwars.fleet.infrastructure.adapters.gateways.dtos.SwapiPageDto;
+import org.ort.starwars.fleet.infrastructure.adapters.gateways.dtos.SwapiStarshipDto;
 import org.ort.starwars.fleet.utils.Parsing;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;

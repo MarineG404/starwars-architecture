@@ -1,4 +1,4 @@
-package org.ort.starwars.fleet.repositories;
+package org.ort.starwars.fleet.infrastructure.adapters.repositories;
 
 import org.ort.starwars.fleet.domain.models.entities.Staff;
 import org.ort.starwars.fleet.domain.models.entities.Starship;

@@ -1,11 +1,11 @@
-package org.ort.starwars.fleet.controllers;
+package org.ort.starwars.fleet.infrastructure.adapters.controllers;
 
 import org.springframework.web.bind.annotation.RestController;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.ort.starwars.fleet.configuration.Settings;
+import org.ort.starwars.fleet.infrastructure.configuration.Settings;
 
 
 

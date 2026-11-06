@@ -1,4 +1,4 @@
-package org.ort.starwars.fleet.gateways.dtos;
+package org.ort.starwars.fleet.infrastructure.adapters.gateways.dtos;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
